@@ -15,8 +15,8 @@ a{
     text-decoration: none;
 }
 img {
-    width: 100%;
-    height: 100%;
+    width: 15rem;
+    height: 15rem;
     vertical-align: middle;
 }
 figure{
@@ -75,18 +75,13 @@ header h1{
 }
 section ul li{
     display: inline-block;
-    width: calc(100% / 3);
+    width: calc(100% / 6);
     margin: auto;
     vertical-align: top;
 }
+
 li figure{
     margin: auto;
-}
-main p{
-    font-size: 2rem;
-    text-align: center;
-    line-height: 10rem;
-    color: var(--color-text-title)
 }
 footer{
     text-align: center;
