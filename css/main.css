@@ -59,6 +59,8 @@ h2{
     color: var(--color-text-title);
     font-size: 5rem;
     text-transform: initial;
+    text-align: center;
+    line-height: 1
 }
 /* theme */
 header{
@@ -75,19 +77,27 @@ header h1{
 }
 section ul li{
     display: inline-block;
-    width: calc(100% / 6);
+    width: calc(100% / 4);
     margin: auto;
     vertical-align: top;
 }
+section .main-grid-cover figure{
+    padding: .5rem;
 
+}
 li figure{
     margin: auto;
+    width: 10rem;
+}
+li{
+    width: 0rem;
 }
 footer{
     text-align: center;
     background-color: var(--colors);
     color: var(--color-text-title);
     letter-spacing: .1rem;
+    line-height: 5rem;
 }
 h3{
     font-size: 3rem;
