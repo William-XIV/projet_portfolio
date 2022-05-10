@@ -14,13 +14,19 @@ body{
 a{
     text-decoration: none;
 }
-img {
-    width: 15rem;
-    height: 15rem;
+img{
+    width: 100%;
+    height: 100%;
     vertical-align: middle;
+}
+figcaption{
+    color: var(--color-text-title);
+    text-align: center;
+    width: auto;
 }
 figure{
     margin: 0;
+    width: 5rem;
 }
 h1,h2,p,h3,ul,ol,figure{
     margin: 0;
@@ -60,7 +66,7 @@ h2{
     font-size: 5rem;
     text-transform: initial;
     text-align: center;
-    line-height: 1
+    line-height: 5rem
 }
 /* theme */
 header{
@@ -78,19 +84,11 @@ header h1{
 section ul li{
     display: inline-block;
     width: calc(100% / 4);
-    margin: auto;
+    margin: 1rem;
     vertical-align: top;
 }
 section .main-grid-cover figure{
     padding: .5rem;
-
-}
-li figure{
-    margin: auto;
-    width: 10rem;
-}
-li{
-    width: 0rem;
 }
 footer{
     text-align: center;
@@ -106,10 +104,7 @@ h3{
 footer section{
     display: inline-block;
     margin: 5rem;
-    color: var(--colors-primary);
-}
-footer a{
-    color: var(--colors-primary);
+    color: var(--colors-text-title);
 }
 footer p{
     font-size: 1.5rem;
