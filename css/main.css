@@ -6,6 +6,7 @@ html{
 main{
     max-width: 100rem;
     padding-left: 45rem;
+    padding-top: 15rem;
 }
 body{
     font-size: 1.6rem;
@@ -55,7 +56,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 3.0rem;
     background-color: var(--colors);
-    color: var(--colors-primary);
+    color: var(--colors-text-title);
 }
 nav ul li{
     display: inline-block;
@@ -64,6 +65,7 @@ nav ul li{
     font-size: initial;
     text-transform: uppercase;
     line-height: 6rem;
+    width: 17rem;
 }
 :root{
     --color-text-title: #ffffff;
@@ -83,6 +85,9 @@ header{
     text-transform: initial;
     background-color:var(--colors);
     color: var(--color-text-title);
+    position: fixed;
+    width: 200rem;
+   
 }
 header h1{
     line-height: 7rem;
@@ -99,7 +104,7 @@ section ul li{
     width: auto;
     padding-left: 6rem;
 }
-ul{
+section ul{
     background-color: #3f4246;
     border-radius: 10px;
     margin-bottom: 5rem;
