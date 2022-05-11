@@ -3,6 +3,10 @@
 html{
     font-size: 62.5%;
 }
+main{
+    max-width: 100rem;
+    padding-left: 45rem;
+}
 body{
     font-size: 1.6rem;
     font-family: 'Poppins';
@@ -26,7 +30,7 @@ figcaption{
 }
 figure{
     margin: 0;
-    width: 5rem;
+    width: 10rem;
 }
 h1,h2,p,h3,ul,ol,figure{
     margin: 0;
@@ -63,9 +67,9 @@ nav ul li{
 }
 h2{
     color: var(--color-text-title);
-    font-size: 5rem;
+    font-size: 2rem;
     text-transform: initial;
-    text-align: center;
+    text-align: left;
     line-height: 5rem
 }
 /* theme */
@@ -80,16 +84,19 @@ header h1{
     text-align: center;
     color: var(--color-text-title);
     font-weight: 300;
+    font-size: 5rem;
 }
 section ul li{
     display: inline-block;
-    width: calc(100% / 6);
+    width: calc(100% / 5);
     margin: 1rem;
     vertical-align: top;
+    width: auto;
+    padding-left: 6rem;
 }
 ul{
     background-color: #3f4246;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 section .main-grid-cover figure{
     padding: .5rem;
@@ -100,6 +107,7 @@ footer{
     color: var(--color-text-title);
     letter-spacing: .1rem;
     line-height: 5rem;
+    
 }
 h3{
     font-size: 3rem;
@@ -120,7 +128,7 @@ footer p{
         font-size: 2rem;
     }
     section ul li{
-        width: calc(100% / 2);
+        width: calc(100% / 3);
     }
     figcaption{
         height: 10rem;
